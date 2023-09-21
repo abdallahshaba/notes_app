@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:note_app2/views/notes_view.dart';
+import 'package:note_app2/pages/notes_page.dart';
 
 
 void main (){
-  runApp(NoteApp());
+  runApp(const NoteApp());
 }
 
 class NoteApp extends StatelessWidget {
@@ -16,7 +16,7 @@ class NoteApp extends StatelessWidget {
       theme: ThemeData(brightness: Brightness.dark ,
       fontFamily: 'Poppins'
       ),
-      home:  NotesView()
+      home: const  NotesView()
     );
   }
 }
