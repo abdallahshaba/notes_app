@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../widgets/add_note_buttom_sheet.dart';
 import '../widgets/body.dart';
 
-class NotesView extends StatelessWidget {
-  const NotesView({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {

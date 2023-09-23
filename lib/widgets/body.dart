@@ -13,7 +13,10 @@ class Body extends StatelessWidget {
           SizedBox(
             height: 40,
           ),
-         CustomAppBar(),
+         CustomAppBar(
+          text: 'Notes',
+          icon: Icons.search,
+         ),
          Expanded(
           child: ListViewBulilder())
         ],
